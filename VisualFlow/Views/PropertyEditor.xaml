@@ -1,0 +1,11 @@
+<Window x:Class="VisualFlow.PropertyEditor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Property Editor" Height="300" Width="300">
+    <Grid>
+        <!-- Controls to edit properties like text, color, size -->
+        <TextBox Name="TextBoxContent" Width="200" />
+        <Button Name="ChangeColorButton" Content="Change Color" Width="200" />
+        <!-- Add other controls as needed -->
+    </Grid>
+</Window>

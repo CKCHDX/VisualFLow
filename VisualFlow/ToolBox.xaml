@@ -1,0 +1,28 @@
+<UserControl x:Class="VisualFlow.ToolBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Height="Auto" Width="Auto">
+
+    <Grid>
+        <StackPanel Margin="10" VerticalAlignment="Top">
+            <TextBlock Text="Controls" FontWeight="Bold" />
+
+            <Button Name="ButtonBox" Content="Button" Width="100" Height="50" 
+                    Tag="Button" PreviewMouseLeftButtonDown="ToolBoxItem_DragStarted" />
+
+            <TextBlock Text="Elements" FontWeight="Bold" Margin="0,10,0,0"/>
+
+            <Button Name="LabelBox" Content="Label" Width="100" Height="50" 
+                    Tag="Label" PreviewMouseLeftButtonDown="ToolBoxItem_DragStarted" />
+
+            <Button Name="TextBoxBox" Content="TextBox" Width="100" Height="50" 
+                    Tag="TextBox" PreviewMouseLeftButtonDown="ToolBoxItem_DragStarted" />
+
+            <Button Name="BoxBox" Content="Box" Width="100" Height="50" 
+                    Tag="Box" PreviewMouseLeftButtonDown="ToolBoxItem_DragStarted" />
+
+            <Button Name="ProgressBarBox" Content="ProgressBar" Width="100" Height="50" 
+                    Tag="ProgressBar" PreviewMouseLeftButtonDown="ToolBoxItem_DragStarted" />
+        </StackPanel>
+    </Grid>
+</UserControl>
